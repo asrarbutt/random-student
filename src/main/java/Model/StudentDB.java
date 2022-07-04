@@ -14,6 +14,14 @@ public class StudentDB {
         this.allStudent = allStudent;
     }
 
+    public Student getRandomStudent(){
+
+        int index= (int)(Math.random()*3);
+
+        return allStudent[index];
+
+    }
+
     public Student[] getAllStudent() {
 
         return allStudent;

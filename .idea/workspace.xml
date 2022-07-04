@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48bacd87-fa5e-4829-8af4-29bd9b515d94" name="Changes" comment="add studentTest class">
+    <list default="true" id="48bacd87-fa5e-4829-8af4-29bd9b515d94" name="Changes" comment="add the method getAllStudent">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Model/StudentDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/StudentDB.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,14 +33,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_directory_selection": "/Users/asrarbutt/java Bootscamp/random-student/src/main/java/Model"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_directory_selection&quot;: &quot;/Users/asrarbutt/java Bootscamp/random-student/src/main/java/Model&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="Model" />
@@ -69,7 +68,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1656945862441</updated>
-      <workItem from="1656945863892" duration="3886000" />
+      <workItem from="1656945863892" duration="4803000" />
+      <workItem from="1656973280791" duration="652000" />
     </task>
     <task id="LOCAL-00001" summary="initial project">
       <created>1656945984189</created>
@@ -92,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656948358304</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add the method getAllStudent">
+      <created>1656950406100</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1656950406100</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,6 +120,7 @@
     <MESSAGE value="initial project" />
     <MESSAGE value="add student, studentDB classes" />
     <MESSAGE value="add studentTest class" />
-    <option name="LAST_COMMIT_MESSAGE" value="add studentTest class" />
+    <MESSAGE value="add the method getAllStudent" />
+    <option name="LAST_COMMIT_MESSAGE" value="add the method getAllStudent" />
   </component>
 </project>
