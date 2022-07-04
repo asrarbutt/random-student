@@ -17,7 +17,7 @@ public class Main {
 
         StudentDB studentDB=new StudentDB(allStudent);
 
-        System.out.println(studentDB);
+
 
 
 
