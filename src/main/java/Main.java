@@ -1,6 +1,8 @@
 import Model.Student;
 import Model.StudentDB;
 
+import java.util.Arrays;
+
 public class Main {
 
 
@@ -15,7 +17,19 @@ public class Main {
         allStudent[1]=student1;
         allStudent[2]=student2;
 
-        StudentDB studentDB=new StudentDB(allStudent);
+
+
+        StudentDB studentDB=new StudentDB();
+        studentDB.setAllStudent(allStudent);
+
+
+
+
+        for (int i=0; i<allStudent.length; i++){
+
+            System.out.println(studentDB.getAllStudent());
+
+        }
 
 
 

@@ -15,6 +15,7 @@ public class StudentDB {
     }
 
     public Student[] getAllStudent() {
+
         return allStudent;
     }
 
@@ -25,7 +26,7 @@ public class StudentDB {
     @Override
     public String toString() {
         return "StudentDB{" +
-                "allStudent=" + Arrays.toString(allStudent) +
+                "allStudent=" + Arrays.toString(getAllStudent()) +
                 '}';
     }
 }

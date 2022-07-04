@@ -47,8 +47,8 @@ public class Student {
     @Override
     public String toString() {
         return "Student{" +
-                "name='" + name + '\'' +
-                ", id=" + id +
+                "name='" + getName() + '\'' +
+                ", id=" + getId() +
                 '}';
     }
 }
