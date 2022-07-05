@@ -1,11 +1,13 @@
-package Model;
+package db;
+
+import Model.Student;
 
 import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class StudentDB {
 
-    Student [] allStudent;
+    Student[] allStudent;
 
     public StudentDB() {
     }
@@ -16,10 +18,21 @@ public class StudentDB {
 
     public Student getRandomStudent(){
 
-        int index= (int)(Math.random()*3);
+        int index= (int)(Math.random()*allStudent.length);
+        System.out.println(index);
 
         return allStudent[index];
 
+    }
+
+    public void deleteStudenFromList(Student student){
+
+        for (int i=0; i< allStudent.length;i++){
+
+            if(student.getId()==allStudent[i].getId()){
+                System.out.println(student.getId()==allStudent[i].getId());
+            }
+        }
     }
 
     public Student[] getAllStudent() {

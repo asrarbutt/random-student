@@ -1,7 +1,6 @@
+import Model.ComputerScienceStudent;
 import Model.Student;
-import Model.StudentDB;
-
-import java.util.Arrays;
+import db.StudentDB;
 
 public class Main {
 
@@ -36,9 +35,18 @@ public class Main {
         //Random Student aufrufen
         System.out.println(studentDB.getRandomStudent());
 
+        //delete from Allstudent
+        studentDB.deleteStudenFromList(student);
 
 
+        ComputerScienceStudent computerScienceStuden=new ComputerScienceStudent("Hoffmann Müller", 321, "JAVA");
 
+        System.out.println(computerScienceStuden);
     }
+
+
+
+
+
 }
 
