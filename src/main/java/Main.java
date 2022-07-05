@@ -50,7 +50,7 @@ public class Main {
         //Abstracte Methoden
 
         ComputerScienceStudendt2 computerScienceStudendt2=new ComputerScienceStudendt2();
-        System.out.println(computerScienceStudendt2.getStudentName());
+        System.out.println(computerScienceStudendt2.getStudentName("Hoffmann Jan"));
 
 
 

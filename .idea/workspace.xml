@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48bacd87-fa5e-4829-8af4-29bd9b515d94" name="Changes" comment="change in .gitignore">
+    <list default="true" id="48bacd87-fa5e-4829-8af4-29bd9b515d94" name="Changes" comment="add new class for abstract task">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,10 +44,20 @@
       <recent name="Model" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.Student2Test.student2NameTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="random-student" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Student2Test.student2NameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="random-student" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Student2Test" />
+      <option name="METHOD_NAME" value="student2NameTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -65,6 +74,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Student2Test.student2NameTest" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.StudentDBTest.arrayStorageTest" />
       </list>
@@ -80,7 +90,7 @@
       <updated>1656945862441</updated>
       <workItem from="1656945863892" duration="4803000" />
       <workItem from="1656973280791" duration="2347000" />
-      <workItem from="1657004665983" duration="10368000" />
+      <workItem from="1657004665983" duration="11158000" />
     </task>
     <task id="LOCAL-00001" summary="initial project">
       <created>1656945984189</created>
@@ -131,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657016506499</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add new class for abstract task">
+      <created>1657023271811</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1657023271811</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +173,7 @@
     <MESSAGE value="add getRandomStudent method" />
     <MESSAGE value="add computerScienceStudent" />
     <MESSAGE value="change in .gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="change in .gitignore" />
+    <MESSAGE value="add new class for abstract task" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new class for abstract task" />
   </component>
 </project>
