@@ -1,6 +1,6 @@
 import Model.ComputerScienceStudent;
 import Model.Student;
-import db.ComputerScienceStudendt2;
+import Model.ComputerScienceStudendt2;
 import db.StudentDB;
 
 public class Main {
@@ -51,6 +51,10 @@ public class Main {
 
         ComputerScienceStudendt2 computerScienceStudendt2=new ComputerScienceStudendt2();
         System.out.println(computerScienceStudendt2.getStudentName("Hoffmann Jan"));
+
+        //Interface
+
+        System.out.println(computerScienceStudendt2.getAdress("Hamburg") +" id: " +computerScienceStudendt2.getIdentityCardNumber(125));
 
 
 

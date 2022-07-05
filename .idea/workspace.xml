@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48bacd87-fa5e-4829-8af4-29bd9b515d94" name="Changes" comment="add new class for abstract task">
+    <list default="true" id="48bacd87-fa5e-4829-8af4-29bd9b515d94" name="Changes" comment="add test for ComputerscienceStudent2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/db/ComputerScienceStudendt2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/ComputerScienceStudendt2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Student2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Student2Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +18,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -44,7 +48,7 @@
       <recent name="Model" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Student2Test.student2NameTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="random-student" />
@@ -62,6 +66,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Student2Test.studentAdressTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="random-student" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Student2Test" />
+      <option name="METHOD_NAME" value="studentAdressTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Student2Test.testStudentID" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="random-student" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Student2Test" />
+      <option name="METHOD_NAME" value="testStudentID" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StudentDBTest.arrayStorageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="random-student" />
       <option name="PACKAGE_NAME" value="" />
@@ -74,8 +98,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Student2Test.student2NameTest" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.Student2Test.testStudentID" />
+        <item itemvalue="JUnit.Student2Test.studentAdressTest" />
+        <item itemvalue="JUnit.Student2Test.student2NameTest" />
         <item itemvalue="JUnit.StudentDBTest.arrayStorageTest" />
       </list>
     </recent_temporary>
@@ -90,7 +116,7 @@
       <updated>1656945862441</updated>
       <workItem from="1656945863892" duration="4803000" />
       <workItem from="1656973280791" duration="2347000" />
-      <workItem from="1657004665983" duration="11158000" />
+      <workItem from="1657004665983" duration="13153000" />
     </task>
     <task id="LOCAL-00001" summary="initial project">
       <created>1656945984189</created>
@@ -148,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657023271811</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add test for ComputerscienceStudent2">
+      <created>1657024174853</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1657024174853</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,6 +207,22 @@
     <MESSAGE value="add computerScienceStudent" />
     <MESSAGE value="change in .gitignore" />
     <MESSAGE value="add new class for abstract task" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new class for abstract task" />
+    <MESSAGE value="add test for ComputerscienceStudent2" />
+    <option name="LAST_COMMIT_MESSAGE" value="add test for ComputerscienceStudent2" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/Student2Test.java</url>
+          <line>9</line>
+          <properties class="Student2Test" method="student2NameTest">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
