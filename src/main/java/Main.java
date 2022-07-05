@@ -1,5 +1,6 @@
 import Model.ComputerScienceStudent;
 import Model.Student;
+import db.ComputerScienceStudendt2;
 import db.StudentDB;
 
 public class Main {
@@ -42,6 +43,17 @@ public class Main {
         ComputerScienceStudent computerScienceStuden=new ComputerScienceStudent("Hoffmann Müller", 321, "JAVA");
 
         System.out.println(computerScienceStuden);
+        student=computerScienceStuden;
+        System.out.println(student+  "    haha");
+
+
+        //Abstracte Methoden
+
+        ComputerScienceStudendt2 computerScienceStudendt2=new ComputerScienceStudendt2();
+        System.out.println(computerScienceStudendt2.getStudentName());
+
+
+
     }
 
 
