@@ -6,6 +6,7 @@ public class Student2Test {
     ComputerScienceStudendt2 computerScienceStudendt2=new ComputerScienceStudendt2();
 
 
+
     @Test
     void student2NameTest(){
         //Given
@@ -22,6 +23,7 @@ public class Student2Test {
 
     @Test
     void studentAdressTest(){
+
         //given
         String adress="Hamburg";
 
