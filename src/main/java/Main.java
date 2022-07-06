@@ -30,9 +30,10 @@ public class Main {
 
         //Hashmap
 
-        studentDB.getAllStudentHashMap().put(student.getId(), student.getName());
-        studentDB.getAllStudentHashMap().put(student1.getId(), student1.getName());
-        studentDB.getAllStudentHashMap().put(student2.getId(), student2.getName());
+        studentDB.getAllStudentHashMap().put(student.getId(), student);
+        studentDB.getAllStudentHashMap().put(student1.getId(), student1);
+        studentDB.getAllStudentHashMap().put(student2.getId(), student2);
+
 
 
 
@@ -52,13 +53,16 @@ public class Main {
 
         }
 
-        for (int i=0; i<studentDB.getAllStudentHashMap().size(); i++){
+        System.out.println("======================================================================");
 
-            System.out.println("hier ist eine hashmap " +studentDB.getAllStudentHashMap());
+   // Hashmap
+
+        studentDB.getAllStudentHashMap().forEach((k, v)->{
+            System.out.println("ich bin ein Hashmap   " +v);
+        });
 
 
-        }
-
+        System.out.println("==================================================================");
         //Random Student aufrufen
         System.out.println(studentDB.getRandomStudent());
 

@@ -50,8 +50,8 @@ public class Student {
     @Override
     public String toString() {
         return "Student{" +
-                "name='" + getName() + '\'' +
-                ", id=" + getId() +
+                "name='" + name + '\'' +
+                ", id=" + id +
                 '}';
     }
 }

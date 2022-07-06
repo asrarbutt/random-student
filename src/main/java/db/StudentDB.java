@@ -13,12 +13,17 @@ public class StudentDB {
 
     ArrayList<Student> allStudentArrayList=new ArrayList<>();
 
-    HashMap<Integer, String> allStudentHashMap=new HashMap<>();
+    HashMap<Integer, Student> allStudentHashMap=new HashMap<>();
+
+
+
+
 
     public StudentDB() {
     }
 
-    public StudentDB(HashMap<Integer, String> allStudentHashMap) {
+
+    public StudentDB(HashMap<Integer, Student> allStudentHashMap) {
         this.allStudentHashMap = allStudentHashMap;
     }
 
@@ -66,11 +71,11 @@ public class StudentDB {
         this.allStudentArrayList = allStudentArrayList;
     }
 
-    public HashMap<Integer, String> getAllStudentHashMap() {
+    public HashMap<Integer, Student> getAllStudentHashMap() {
         return allStudentHashMap;
     }
 
-    public void setAllStudentHashMap(HashMap<Integer, String> allStudentHashMap) {
+    public void setAllStudentHashMap(HashMap<Integer, Student> allStudentHashMap) {
         this.allStudentHashMap = allStudentHashMap;
     }
 
