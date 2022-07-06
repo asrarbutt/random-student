@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48bacd87-fa5e-4829-8af4-29bd9b515d94" name="Changes" comment="ende">
+    <list default="true" id="48bacd87-fa5e-4829-8af4-29bd9b515d94" name="Changes" comment="add arraylist">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/db/StudentDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/db/StudentDB.java" afterDir="false" />
@@ -116,7 +116,7 @@
       <workItem from="1656945863892" duration="4803000" />
       <workItem from="1656973280791" duration="2347000" />
       <workItem from="1657004665983" duration="15961000" />
-      <workItem from="1657100920198" duration="1111000" />
+      <workItem from="1657100920198" duration="2951000" />
     </task>
     <task id="LOCAL-00001" summary="initial project">
       <created>1656945984189</created>
@@ -195,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657030262055</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="add arraylist">
+      <created>1657102286297</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1657102286297</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,7 +231,8 @@
     <MESSAGE value="add test for ComputerscienceStudent2" />
     <MESSAGE value="add test for the interface mathods" />
     <MESSAGE value="ende" />
-    <option name="LAST_COMMIT_MESSAGE" value="ende" />
+    <MESSAGE value="add arraylist" />
+    <option name="LAST_COMMIT_MESSAGE" value="add arraylist" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

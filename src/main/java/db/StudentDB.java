@@ -5,6 +5,7 @@ import Model.Student;
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashMap;
 
 public class StudentDB {
 
@@ -12,7 +13,13 @@ public class StudentDB {
 
     ArrayList<Student> allStudentArrayList=new ArrayList<>();
 
+    HashMap<Integer, String> allStudentHashMap=new HashMap<>();
+
     public StudentDB() {
+    }
+
+    public StudentDB(HashMap<Integer, String> allStudentHashMap) {
+        this.allStudentHashMap = allStudentHashMap;
     }
 
     public StudentDB(ArrayList<Student> allStudentArrayList) {
@@ -57,6 +64,14 @@ public class StudentDB {
 
     public void setAllStudentArrayList(ArrayList<Student> allStudentArrayList) {
         this.allStudentArrayList = allStudentArrayList;
+    }
+
+    public HashMap<Integer, String> getAllStudentHashMap() {
+        return allStudentHashMap;
+    }
+
+    public void setAllStudentHashMap(HashMap<Integer, String> allStudentHashMap) {
+        this.allStudentHashMap = allStudentHashMap;
     }
 
     @Override

@@ -28,6 +28,12 @@ public class Main {
         studentDB.getAllStudentArrayList().add(student1);
         studentDB.getAllStudentArrayList().add(student2);
 
+        //Hashmap
+
+        studentDB.getAllStudentHashMap().put(student.getId(), student.getName());
+        studentDB.getAllStudentHashMap().put(student1.getId(), student1.getName());
+        studentDB.getAllStudentHashMap().put(student2.getId(), student2.getName());
+
 
 
 
@@ -42,6 +48,13 @@ public class Main {
         for (int i=0; i<studentDB.getAllStudentArrayList().size(); i++){
 
             System.out.println("hier ist eine ArrayList " +studentDB.getAllStudentArrayList());
+
+
+        }
+
+        for (int i=0; i<studentDB.getAllStudentHashMap().size(); i++){
+
+            System.out.println("hier ist eine hashmap " +studentDB.getAllStudentHashMap());
 
 
         }
