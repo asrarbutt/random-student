@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48bacd87-fa5e-4829-8af4-29bd9b515d94" name="Changes" comment="add test for the interface mathods">
+    <list default="true" id="48bacd87-fa5e-4829-8af4-29bd9b515d94" name="Changes" comment="ende">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Student2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Student2Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/db/StudentDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/db/StudentDB.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +115,8 @@
       <updated>1656945862441</updated>
       <workItem from="1656945863892" duration="4803000" />
       <workItem from="1656973280791" duration="2347000" />
-      <workItem from="1657004665983" duration="15289000" />
+      <workItem from="1657004665983" duration="15961000" />
+      <workItem from="1657100920198" duration="1111000" />
     </task>
     <task id="LOCAL-00001" summary="initial project">
       <created>1656945984189</created>
@@ -186,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657026625298</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="ende">
+      <created>1657030262055</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1657030262055</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,7 +223,8 @@
     <MESSAGE value="add new class for abstract task" />
     <MESSAGE value="add test for ComputerscienceStudent2" />
     <MESSAGE value="add test for the interface mathods" />
-    <option name="LAST_COMMIT_MESSAGE" value="add test for the interface mathods" />
+    <MESSAGE value="ende" />
+    <option name="LAST_COMMIT_MESSAGE" value="ende" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

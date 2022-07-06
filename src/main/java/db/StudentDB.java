@@ -3,13 +3,20 @@ package db;
 import Model.Student;
 
 import java.lang.reflect.Array;
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class StudentDB {
 
     Student[] allStudent;
 
+    ArrayList<Student> allStudentArrayList=new ArrayList<>();
+
     public StudentDB() {
+    }
+
+    public StudentDB(ArrayList<Student> allStudentArrayList) {
+        this.allStudentArrayList = allStudentArrayList;
     }
 
     public StudentDB(Student[] allStudent) {
@@ -44,10 +51,20 @@ public class StudentDB {
         this.allStudent = allStudent;
     }
 
+    public ArrayList<Student> getAllStudentArrayList() {
+        return allStudentArrayList;
+    }
+
+    public void setAllStudentArrayList(ArrayList<Student> allStudentArrayList) {
+        this.allStudentArrayList = allStudentArrayList;
+    }
+
     @Override
     public String toString() {
         return "StudentDB{" +
-                "allStudent=" + Arrays.toString(getAllStudent()) +
+                "allStudent=" + Arrays.toString(allStudent) +
+                ", allStudentArrayList=" + allStudentArrayList +
                 '}';
     }
 }
+

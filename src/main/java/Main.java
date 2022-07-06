@@ -19,8 +19,14 @@ public class Main {
 
 
 
+
+
+
         StudentDB studentDB=new StudentDB();
         studentDB.setAllStudent(allStudent);
+        studentDB.getAllStudentArrayList().add(student);
+        studentDB.getAllStudentArrayList().add(student1);
+        studentDB.getAllStudentArrayList().add(student2);
 
 
 
@@ -29,6 +35,13 @@ public class Main {
         for (int i=0; i<allStudent.length; i++){
 
             System.out.println(studentDB.getAllStudent());
+
+
+        }
+
+        for (int i=0; i<studentDB.getAllStudentArrayList().size(); i++){
+
+            System.out.println("hier ist eine ArrayList " +studentDB.getAllStudentArrayList());
 
 
         }
